@@ -13,13 +13,13 @@ from sklearn.cluster import KMeans
 # matriz simples
 # 6 usuarios e 4 filmes
 movie_ratings = np.array([
-    [1,0,0,1],  # usuario 1: assitiu aos filmes 1 e 4
-    [1,1,0,0],  # usuario 2: assitiu aos filmes 1 e 2
-    [0,1,1,0],  # usuario 3: assitiu aos filmes 2 e 3
-    [0,0,1,1],  # usuario 4: assitiu aos filmes 3 e 4
-    [1,0,1,0],  # usuario 5: assitiu aos filmes 1 e 3
-    [0,1,0,1],  # usuario 6: assitiu aos filmes 2 e 4
-
+    [1,0,0,1,0,1],  # usuario 1: assitiu aos filmes 1 e 4
+    [1,1,0,0,1,0],  # usuario 2: assitiu aos filmes 1 e 2
+    [0,1,1,0,1,0],  # usuario 3: assitiu aos filmes 2 e 3
+    [0,0,1,1,0,1],  # usuario 4: assitiu aos filmes 3 e 4
+    [1,0,1,0,1,0],  # usuario 5: assitiu aos filmes 1 e 3
+    [0,1,0,1,0,1],  # usuario 6: assitiu aos filmes 2 e 4
+    [0,1,1,0,0,1]
 ])
 
 # treinando o modelo
